@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
 body{
     padding: 0%;
     margin: 0%;
@@ -20,6 +25,8 @@ header{
     list-style: none;
     padding: 80px 184px;
     word-spacing: 44px ;
+    /* fixx */
+    
 }
 .nav-bar ul li{
     display: inline-block;
@@ -33,6 +40,10 @@ header{
     padding: 10px 16px;
     font-size: 28px;
     color: #F6E1C3;
+}
+.nav-bar a:hover{
+    transition: color 0.2s ease-out;
+    color: rgb(254, 254, 254);
 }
 
 .navigation{
@@ -48,7 +59,50 @@ header{
     padding-right: 100px;
     /* padding: 0px 10px;   */
 }
-.container{
-    color: black;
+.greet{
+    margin: 75px 200px;
+    padding-left: 90px;
+    /* font-size: large; */
 }
+.container{
+    display: flex;
+    color: black;
+    margin: 0%;
+    width: auto;
+    height: 80vh;
+    /* justify-content:space-evenly; */
+}
+.beans{
+    max-width: 100%;
+    
+}
+.duh{
+    font-size: 100px;
+    color: #483228;
+    line-height: 1;
+}
+span{
+    color: #764a13;
+}
+span1{
+    color: #764a13;
+}
+h2{
+    color: #483228;
+}
+span2{
+    font-size: 80px;
+}
+p{
+    color: #483228;
+    font-size: large;
+}
+.container1 h1{
+    text-align: center;
+    color: #483228;
+    font-size: 50px;
+
+    
+}
+
 
