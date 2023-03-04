@@ -63,7 +63,7 @@ header{
     margin: 75px 200px;
     padding-left: 90px;
     /* font-size: large; */
-    animation: fadeIn 3s;
+    
 }
 .container{
     display: flex;
@@ -81,22 +81,27 @@ header{
     font-size: 100px;
     color: #483228;
     line-height: 1;
+    animation: fadeIn 3s;
 }
 span{
     color: #764a13;
+    animation: fadeIn 2s;
 }
 span1{
     color: #764a13;
 }
 h2{
     color: #483228;
+    animation: fadeIn 3.5s;
 }
 span2{
     font-size: 80px;
+    animation: fadeIn 3.4s;
 }
 p{
     color: #483228;
     font-size: large;
+    animation: fadeIn 5s;
 }
 .container1 .bih{
     text-align: center;
@@ -145,12 +150,78 @@ p{
     line-height: 1.5;
 
 }
+
+.bit span4{
+    font-weight: bold;
+}
+.container3 h1{
+    color:#483228;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 40px;
+}
+.container3{
+    margin-top: 30px;
+}
+.container3 .info{
+    border-style:dotted;
+    border-width: 1;
+    justify-content: center;
+}
+.info a{
+    list-style: none;
+    text-decoration: none;
+    color: #361500;
+    font-size: large;
+    font-weight: bold;
+}
+.info ul{
+    text-align: center;
+    margin: 15px;
+}
+.info ul li{
+    list-style-type: none;
+}
+.container4{
+    margin-top: 30px;
+    background-image: linear-gradient(#F6E1C3, #483228);
+}
+.container4 h1{
+    color:#483228;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 40px;
+}
+.form{
+    border-radius: 5px;
+   
+    padding: 20px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=submit] {
+    width: 100%;
+    background-color:#F6E1C3;
+    color:#361500;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
-}
-.bit span4{
-    font-weight: bold;
 }
 
 
