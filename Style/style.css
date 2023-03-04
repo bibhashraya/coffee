@@ -164,9 +164,10 @@ p{
     margin-top: 30px;
 }
 .container3 .info{
-    border-style:dotted;
-    border-width: 1;
+    /* border-style:dotted;
+    border-width: 1; */
     justify-content: center;
+   
 }
 .info a{
     list-style: none;
