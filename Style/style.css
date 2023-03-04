@@ -3,18 +3,52 @@ body{
     padding: 0%;
     margin: 0%;
     font-family: 'Golos Text', sans-serif;
-    /* background-color: rgb(185, 155, 107); */
+    background-color:#F6E1C3;
 }
-.header{
-    background-color:rgb(225, 238, 221);
+header{
+    /* background-color:rgb(225, 238, 221); */
+    background-color: rgb(185, 155, 107);
     padding: 0%;
     margin: 0%;
 }
-.navigation li{
-    display: inline;
+.nav-bar{
+   width: 100%;
 }
-.nav-item{
+.nav-bar ul{
+    padding: 50px;
+    margin: 0%;
+    list-style: none;
+    padding: 80px 184px;
+    word-spacing: 44px ;
+}
+.nav-bar ul li{
+    display: inline-block;
+    margin: 0%;
     padding: 0%;
+   
+}
+.nav-bar a{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 16px;
+    font-size: 28px;
+    color: #F6E1C3;
+}
+
+.navigation{
+    padding: 0;
     margin: 0;
+    display:flex;
+}
+
+/* logo */
+.logo{
+    max-width: 100%;
+    height: 200px;
+    padding-right: 100px;
+    /* padding: 0px 10px;   */
+}
+.container{
+    color: black;
 }
 
