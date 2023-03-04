@@ -97,12 +97,26 @@ p{
     color: #483228;
     font-size: large;
 }
-.container1 h1{
+.container1 .bih{
     text-align: center;
     color: #483228;
     font-size: 50px;
-
-    
 }
+.container1 .menu{
+    max-width:50%;
+    height: 80vh;
+    justify-content: center;   
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.container1 p{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
 
 
