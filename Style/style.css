@@ -63,6 +63,7 @@ header{
     margin: 75px 200px;
     padding-left: 90px;
     /* font-size: large; */
+    animation: fadeIn 3s;
 }
 .container{
     display: flex;
@@ -116,6 +117,44 @@ p{
     font-size: 24px;
     font-weight: bold;
 }
+.container2{
+    background-color: #361500;
+    /* border-radius: 100px; */
+    margin-top: 26px;
+    max-width: 100%;
+    border-top-right-radius: 115px;
+    border-bottom-right-radius: 115px;
+    height: 50vh;
+    
+}
+.container2 h1{
+    font-size: 40px;
+    color: #F6E1C3;
+    text-align: center;
+}
+.container2 p{
+    color: #F6E1C3;
+    font-size: large;
+}
+.bit{
+    margin-top: 25px;
+    padding: 0px 30px;
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 1.5;
+
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.bit span4{
+    font-weight: bold;
+}
+
+
+
 
 
 
